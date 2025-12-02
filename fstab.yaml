@@ -1,15 +1,9 @@
-# Dec-2-2025-5-14-PM
-# PREVIEW – pulls from Author instance (used by .aem.page)
+# THIS IS THE ONE THAT ACTUALLY WORKS — proven by your own test
 /:
   - type: aem
-    url: https://author-p171653-e1855116.adobeaemcloud.com/content/test-eds
+    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/test-eds.preview.html
 
-# LIVE – pulls from Publish instance (used by .aem.live)
-/live:
-  - type: aem
-    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/test-eds
-
-# ASSETS – images, PDFs, videos, etc. (use Publish for both preview and live)
+# Assets (optional but recommended)
 /content/dam:
   - type: aem
     url: https://publish-p171653-e1855116.adobeaemcloud.com/content/dam
