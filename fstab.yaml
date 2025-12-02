@@ -1,4 +1,14 @@
-mountpoints:
-  /:
-    url: "https://author-p171653-e1855116.adobeaemcloud.com/content/test-eds"
-    type: "aem"
+# PREVIEW – pulls from Author instance (used by .aem.page)
+ /:
+  - type: aem
+    url: https://author-p171653-e1855116.adobeaemcloud.com/content/test-eds
+
+# LIVE – pulls from Publish instance (used by .aem.live)
+/live:
+  - type: aem
+    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/test-eds
+
+# ASSETS – images, PDFs, videos, etc. (use Publish for both preview and live)
+/content/dam:
+  - type: aem
+    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/dam
