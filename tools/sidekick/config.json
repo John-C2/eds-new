@@ -1,5 +1,6 @@
 {
-  "project": "EDS + Universal Editor",
+  "project": "EDS + Universal Editor (eds-new)",
   "editUrlLabel": "Universal Editor",
-  "editUrlPattern": "https://author-p171653-e1855116.adobeaemcloud.com/ui#/aem/universal-editor/canvas/author-p171653-e1855116.adobeaemcloud.com{{pathname}}.html"
+  "editUrlPattern": "https://author-p171653-e1855116.adobeaemcloud.com/ui#/aem/universal-editor/canvas/author-p171653-e1855116.adobeaemcloud.com{{pathname}}.html",
+  "contentSourceUrl": "https://author-p171653-e1855116.adobeaemcloud.com"
 }
