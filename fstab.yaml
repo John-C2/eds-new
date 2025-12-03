@@ -1,9 +1,3 @@
-# THIS IS THE ONE THAT ACTUALLY WORKS — proven by your own test
-/:
-  - type: aem
-    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/test-eds.preview.html
-
-# Assets (optional but recommended)
-/content/dam:
-  - type: aem
-    url: https://publish-p171653-e1855116.adobeaemcloud.com/content/dam
+mountpoints:
+  /: https://author-p171653-e1855116.adobeaemcloud.com/content/test-eds/
+  /content/dam: https://author-p171653-e1855116.adobeaemcloud.com/content/dam/
