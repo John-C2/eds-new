@@ -4,7 +4,10 @@
   "owner": "john-c2",
   "repo": "eds-new",
   "ref": "main",
+  "previewHost": "main--eds-new--john-c2.aem.page",
+  "liveHost": "main--eds-new--john-c2.aem.live",
   "editUrlLabel": "Universal Editor",
   "editUrlPattern": "https://author-p171653-e1855116.adobeaemcloud.com/ui#/aem/universal-editor/canvas/main--eds-new--john-c2.aem.page{{pathname}}",
+  "contentSourceType": "aem",
   "contentSourceUrl": "https://author-p171653-e1855116.adobeaemcloud.com/content/test-eds"
 }
